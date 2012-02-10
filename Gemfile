@@ -8,6 +8,7 @@ gem 'rails', '3.1.1'
 group :development, :test do
 gem 'sqlite3'
 gem 'rspec-rails', '2.8.1'
+gem 'webrat'
 end
 
 # Gems used only for assets and not required
