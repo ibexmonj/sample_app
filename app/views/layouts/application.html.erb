@@ -13,7 +13,7 @@
 	<body>
 		<div class="container">
 			<header>
-				<%= image_tag("logo.png", :alt => "sample app", :class => "round")%>
+				<%= image_tag("rails.png", :alt => "sample app", :class => "round")%>
 			<nav class="round">
 				<ul>
 					<li><%= link_to "Home", '#'%></li>
@@ -21,10 +21,10 @@
 					<li><%= link_to "Sign In", '#'%></li>
 				</ul>
 			</nav>
-				</header>
+			</header>
 			<section class="round">
 				 <%= yield %>
 			</section>
-     
+     </div>
 	</body>
 </html>
